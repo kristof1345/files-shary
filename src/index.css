@@ -1,0 +1,58 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#reciever {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0 0 0;
+}
+
+.shared-file {
+  padding: 40px 50px;
+  background-color: #313131;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.download {
+  position: absolute;
+  top: 5px;
+}
+.delete {
+  position: absolute;
+  top: 5px;
+  left: 130px;
+}
+
+#share {
+  width: 100%;
+  background-color: #383838;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 15px 0px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+#share:hover {
+  background-color: #313131;
+}
+
+.custom-file-input {
+  font-size: 1.2rem;
+  padding: 10px;
+}
